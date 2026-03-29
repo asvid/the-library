@@ -10,6 +10,9 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: tag-release
+      description: Bump the app version, commit, tag, and push to trigger the release CI workflow. Use when ready to release a new version to the Play Store.
+      source: https://github.com/asvid/llm-tools/blob/main/skills/tag-release/SKILL.md
   agents: []
   prompts: []
