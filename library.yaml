@@ -15,6 +15,10 @@ library:
       description: Common git and GitHub CLI operations (branching, committing, PRs, issues, labels, project board) used across agents.
       source: https://github.com/asvid/llm-tools/blob/main/skills/gh-interactions/SKILL.md
 
+    - name: mental-memory
+      description: Agent memory skill — read a YAML memory file at task start and write new learnings at task end to persist context across sessions.
+      source: https://github.com/asvid/llm-tools/blob/main/skills/mental-memory/SKILL.md
+
     - name: tag-release
       description: Bump the app version, commit, tag, and push to trigger the release CI workflow. Use when ready to release a new version to the Play Store.
       source: https://github.com/asvid/llm-tools/blob/main/skills/tag-release/SKILL.md
