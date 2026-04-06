@@ -11,6 +11,10 @@ default_dirs:
 
 library:
   skills:
+    - name: github-interactions
+      description: Common git and GitHub CLI operations (branching, committing, PRs, issues, labels, project board) used across agents.
+      source: https://github.com/asvid/llm-tools/blob/main/skills/gh-interactions/SKILL.md
+
     - name: tag-release
       description: Bump the app version, commit, tag, and push to trigger the release CI workflow. Use when ready to release a new version to the Play Store.
       source: https://github.com/asvid/llm-tools/blob/main/skills/tag-release/SKILL.md
