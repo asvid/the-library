@@ -23,6 +23,10 @@ library:
       description: Bump the app version, commit, tag, and push to trigger the release CI workflow. Use when ready to release a new version to the Play Store.
       source: https://github.com/asvid/llm-tools/blob/main/skills/tag-release/SKILL.md
 
+    - name: grill-me
+      description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
+      source: https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md
+
     - name: write-prd
       description: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue. Use when user wants to write a PRD, create a product requirements document, or plan a new feature.
       source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
