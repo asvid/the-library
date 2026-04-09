@@ -31,6 +31,10 @@ library:
       description: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue. Use when user wants to write a PRD, create a product requirements document, or plan a new feature.
       source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
 
+    - name: write-postmortem
+      description: Guide a conversational interview to produce a structured postmortem document following the team's standard template. Use when the user asks to write a postmortem, incident report, or post-incident review.
+      source: ~/.claude/skills/write-postmortem/SKILL.md
+
     - name: write-skill
       description: Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.
       source: https://github.com/mattpocock/skills/blob/main/write-a-skill/SKILL.md
