@@ -35,6 +35,10 @@ library:
       description: Guide a conversational interview to produce a structured postmortem document following the team's standard template. Use when the user asks to write a postmortem, incident report, or post-incident review.
       source: https://github.com/asvid/llm-tools/blob/main/skills/write-postmortem/SKILL.md
 
+    - name: gh-issue-spec
+      description: Write a full technical specification directly into a GitHub issue description. Use when the user asks to write a spec or specification for a GitHub issue. Explores codebase to find exact files/lines, asks clarifying questions, produces structured spec with root cause, code examples, file references, rationale, and acceptance criteria.
+      source: https://github.com/asvid/llm-tools/blob/main/skills/gh-issue-spec/SKILL.md
+
     - name: write-skill
       description: Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.
       source: https://github.com/mattpocock/skills/blob/main/write-a-skill/SKILL.md
